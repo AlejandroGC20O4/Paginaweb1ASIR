@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./CSS/index_CSS_Alejaandro.css">
-    <title>MmfMusical</title>
+    <title>Contacto</title>
 </head>
 <body>
     <div id="nav">
@@ -31,18 +31,18 @@
         
         <header class="header">
             <div class="container">
-            <div class="primer-menu">
-                <label for="primer-menu">☰</label>
-            </div>
-                <div class="logo">
-                    <h1>MMF</h1>
-                </div>
-                <nav class="menu">
-                    <a href="./registrarse.html">Registrarse</a>
-                    <a href="./login.html">Iniciar sesión</a>
-                    <a href="./info.html">+Info</a>
-                    <a href="./dudas.html">Dudas</a>
-                </nav>
+              <div class="primer-menu">
+                  <label for="primer-menu">☰</label>
+              </div>
+              <div class="logo">
+                      <h1>MMF</h1>
+              </div>
+              <nav class="menu">
+                      <a href="./registrarse.html">Registrarse</a>
+                      <a href="./login.html">Iniciar sesión</a>
+                      <a href="./info.html">+Info</a>
+                      <a href="./dudas.html">Dudas</a>
+              </nav>
             </div>
         </header>
         <div class="capa"></div>
@@ -53,6 +53,7 @@
                 <nav>
                     
                     <a href="https://twitter.com/MmfMusical">Twitter <img src="./IMG/twitterlogo.png" alt="twitter" class="redessociales"></a>
+                    <a href="#">Facebook <img src="./IMG/facebook.png" alt="Facebook" class="redessociales"></a>
                     <a href="https://www.youtube.com/channel/UCKTHO1SuYMqfuIw6wS6_F1g">Youtube <img src="./IMG/Youtube.png" alt="Youtube" class="redessociales"></a>
                     <a href="https://www.instagram.com/mmfmusical/">Instagram<img src="./IMG/Instagram_icon.png.webp" alt="Instagram" class="redessociales"></a> 
                 </nav>
@@ -68,12 +69,32 @@
             
             <li><a href="./contacto.html">Contacto</a></li>
           </ul>
-          
+          <form action="./index.html">
+            <div>
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre">
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email">
+            </div>
+            <div>
+              <label for="asunto">Asunto:</label>
+              <input type="text" id="asunto" name="asunto">
+            </div>
+            <div>
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
         </div>
         
       </footer>
         
-       
+    
+
+
 
     
 </body>
